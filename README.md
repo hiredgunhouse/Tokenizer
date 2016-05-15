@@ -1,5 +1,7 @@
-Keyboard Hooks
+Tokenizer
 ==============
+
+[![Build status](https://ci.appveyor.com/api/projects/status/ifrc0whlp4cbeihv?svg=true)](https://ci.appveyor.com/project/PiotrOwsiak/tokenizer)
 
 This program generates a file using a template with tokens that will be replaced using token file (with token definitions).
 Usefull for generating configuration files for different environments.
