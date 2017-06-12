@@ -9,17 +9,17 @@ Also the tool can detect changes to generated file (saves a copy as *.lastversio
 The default difftool is WinMerge (with hardcoded path) but you can specify your own using DIFFTOOL and DIFFTOOLCALLPATTERN environment variables.
 Just see the code to understand how it works.
 
-###Usage:  
+### Usage:  
 
 Tokenizer.exe template-file token-file output-file
 
-###Warning:  
+### Warning:  
 This program has been done very quickly and "works on my machine" (Windows 7 EN 64-bit and Windows 7 PL 64-bit). It has been tested only on a few machines.
 
 Pull requests are welcomed.
 
-###Known problems:  
+### Known problems:  
 
-###TODO:
+### TODO:
 
-###Credits
+### Credits
