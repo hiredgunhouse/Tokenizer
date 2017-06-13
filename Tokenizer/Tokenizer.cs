@@ -30,6 +30,9 @@
             var tokenFile = _tokenFile;
             var outputFile = _outputFile;
 
+            // TODO
+            // add -force option and checking for last change date to skip re-generation of files without need for it
+            
             Console.WriteLine("Checking for untemplated changes...");
             var untemplatedChanges = CheckOutputFileForUntemplatedChanges(outputFile);
             if (untemplatedChanges)
