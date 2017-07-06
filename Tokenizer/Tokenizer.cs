@@ -30,9 +30,23 @@
             var tokenFile = _tokenFile;
             var outputFile = _outputFile;
 
+
             // TODO
             // add -force option and checking for last change date to skip re-generation of files without need for it
-            
+            Console.WriteLine("Checking if files are up to date...");
+            var templateFileLastChangeDate = File.GetLastWriteTimeUtc(_templateFile);
+            var tokenFileLastChangeDate = File.GetLastWriteTimeUtc(_tokenFile);
+            var outputFileLastChangeDate = File.GetLastWriteTimeUtc(_outputFile);
+            var lastVersionFileLastChangeDate = File.GetLastWriteTimeUtc(CreateLastVersionFileName(_outputFile));
+
+            if (lastVersionFileLastChangeDate >= outputFileLastChangeDate &&
+                outputFileLastChangeDate >= templateFileLastChangeDate &&
+                outputFileLastChangeDate >= tokenFileLastChangeDate)
+            {
+                Console.WriteLine("Seems that both token and template files are older than output file which is older then last version file, skipping tokenization.");
+                return 0;
+            }
+
             Console.WriteLine("Checking for untemplated changes...");
             var untemplatedChanges = CheckOutputFileForUntemplatedChanges(outputFile);
             if (untemplatedChanges)
