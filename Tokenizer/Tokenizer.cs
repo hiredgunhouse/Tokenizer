@@ -30,9 +30,11 @@
             var tokenFile = _tokenFile;
             var outputFile = _outputFile;
 
-
             // TODO
             // add -force option and checking for last change date to skip re-generation of files without need for it
+
+            // This does not work well for CI case 
+            /*
             Console.WriteLine("Checking if files are up to date...");
             var templateFileLastChangeDate = File.GetLastWriteTimeUtc(_templateFile);
             var tokenFileLastChangeDate = File.GetLastWriteTimeUtc(_tokenFile);
@@ -46,6 +48,7 @@
                 Console.WriteLine("Seems that both token and template files are older than output file which is older then last version file, skipping tokenization.");
                 return 0;
             }
+            */
 
             Console.WriteLine("Checking for untemplated changes...");
             var untemplatedChanges = CheckOutputFileForUntemplatedChanges(outputFile);
@@ -77,8 +80,12 @@
                 // warn about not used tokens
                 if (text.IndexOf(tokenPattern) < 0)
                 {
-                    // TODO yellow
-                    Console.WriteLine("WARNING: Token {0} not found in file.", tokenPattern);
+                    if (Config.WarnAboutTokensNotFoundInFile)
+                    {
+                        // TODO yellow
+                        Console.WriteLine("WARNING: Token {0} not found in file.", tokenPattern);
+                    }
+
                     continue;
                 }
 
