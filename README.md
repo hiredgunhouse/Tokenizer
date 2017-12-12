@@ -9,6 +9,10 @@ Also the tool can detect changes to generated file (saves a copy as *.lastversio
 The default difftool is WinMerge (with hardcoded path) but you can specify your own using DIFFTOOL and DIFFTOOLCALLPATTERN environment variables.
 Just see the code to understand how it works.
 
+### Installation:
+
+Build the program with VS Community and copy the output (including XMLDiff dlls files) to the place you want to use it from.
+
 ### Usage:  
 
 Tokenizer.exe template-file token-file output-file
@@ -23,3 +27,8 @@ Pull requests are welcomed.
 ### TODO:
 
 ### Credits
+
+### Changes:
+
+12.12.2017 - changed file comparsion from binary to xml diff, added nuget dependency on MS xmldiff.
+
