@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a1c49e6b-3a3f-46b4-aca6-3b25d878bc61" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Tokenizer/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Tokenizer/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Tokenizer/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Tokenizer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Tokenizer/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tokenizer/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tokenizer/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tokenizer/Tokenizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tokenizer/Tokenizer.cs" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tokenizer/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+              <folding>
+                <marker date="1526379528299" expanded="true" signature="19:558" ph="{...}" />
+                <marker date="1526379528299" expanded="true" signature="58:556" ph="{...}" />
+                <marker date="1526379528299" expanded="true" signature="103:360" ph="{...}" />
+                <marker date="1526379528299" expanded="true" signature="146:230" ph="{...}" />
+                <marker date="1526379528299" expanded="true" signature="402:550" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tokenizer.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tokenizer/Tokenizer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="59" column="27" lean-forward="true" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+              <folding>
+                <marker date="1526385917522" expanded="true" signature="19:8652" ph="{...}" />
+                <marker date="1526385917522" expanded="true" signature="32:248" ph="..." />
+                <marker date="1526385917522" expanded="true" signature="278:8650" ph="{...}" />
+                <marker date="1526385917522" expanded="true" signature="504:640" ph="{...}" />
+                <marker date="1526385917522" expanded="true" signature="666:5639" ph="{...}" />
+                <marker date="1526385917522" expanded="true" signature="909:1078" ph="{...}" />
+                <marker date="1526385917522" expanded="true" signature="1132:1295" ph="{...}" />
+                <marker date="1526385917522" expanded="true" signature="1309:1487" ph="/* TODO ... */" />
+                <marker date="1526385917522" expanded="true" signature="1500:2392" ph="/* Console.WriteLine(&quot;Checking if files are up to date...&quot;); ... */" />
+                <marker date="1526385917522" expanded="true" signature="2434:2870" ph="{...}" />
+                <marker date="1526385917522" expanded="true" signature="2673:2856" ph="{...}" />
+                <marker date="1526385917522" expanded="true" signature="3253:3979" ph="{...}" />
+                <marker date="1526385917522" expanded="true" signature="3596:3906" ph="{...}" />
+                <marker date="1526385917522" expanded="true" signature="3676:3857" ph="{...}" />
+                <marker date="1526385917522" expanded="true" signature="4116:4652" ph="{...}" />
+                <marker date="1526385917522" expanded="true" signature="5716:6680" ph="{...}" />
+                <marker date="1526385917522" expanded="true" signature="5838:6532" ph="{...}" />
+                <marker date="1526385917522" expanded="true" signature="6066:6228" ph="{...}" />
+                <marker date="1526385917522" expanded="true" signature="6249:6474" ph="{...}" />
+                <marker date="1526385917522" expanded="true" signature="6743:6805" ph="{...}" />
+                <marker date="1526385917522" expanded="true" signature="6815:7011" ph="/* TODO imporove the performance of this method some day ... */" />
+                <marker date="1526385917522" expanded="true" signature="7082:7288" ph="{...}" />
+                <marker date="1526385917522" expanded="true" signature="7346:8644" ph="{...}" />
+                <marker date="1526385917522" expanded="true" signature="7657:8206" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.config</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Tokenizer/Tokenizer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tokenizer/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tokenizer/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tokenizer/Config.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Tokenizer/Program.cs" />
+        <option value="$PROJECT_DIR$/Tokenizer/Tokenizer.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Tokenizer (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Tokenizer (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Tokenizer" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Tokenizer (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Tokenizer" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Tokenizer (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Tokenizer" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assemblies" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Tokenizer (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Tokenizer" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Properties" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1c49e6b-3a3f-46b4-aca6-3b25d878bc61" name="Default" comment="" />
+      <created>1526374862007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526374862007</updated>
+      <workItem from="1526374863361" duration="3682000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3682000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25349087" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Tokenizer/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <marker date="1526379528299" expanded="true" signature="19:558" ph="{...}" />
+            <marker date="1526379528299" expanded="true" signature="58:556" ph="{...}" />
+            <marker date="1526379528299" expanded="true" signature="103:360" ph="{...}" />
+            <marker date="1526379528299" expanded="true" signature="146:230" ph="{...}" />
+            <marker date="1526379528299" expanded="true" signature="402:550" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tokenizer/Tokenizer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="59" column="27" lean-forward="true" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+          <folding>
+            <marker date="1526385917522" expanded="true" signature="19:8652" ph="{...}" />
+            <marker date="1526385917522" expanded="true" signature="32:248" ph="..." />
+            <marker date="1526385917522" expanded="true" signature="278:8650" ph="{...}" />
+            <marker date="1526385917522" expanded="true" signature="504:640" ph="{...}" />
+            <marker date="1526385917522" expanded="true" signature="666:5639" ph="{...}" />
+            <marker date="1526385917522" expanded="true" signature="909:1078" ph="{...}" />
+            <marker date="1526385917522" expanded="true" signature="1132:1295" ph="{...}" />
+            <marker date="1526385917522" expanded="true" signature="1309:1487" ph="/* TODO ... */" />
+            <marker date="1526385917522" expanded="true" signature="1500:2392" ph="/* Console.WriteLine(&quot;Checking if files are up to date...&quot;); ... */" />
+            <marker date="1526385917522" expanded="true" signature="2434:2870" ph="{...}" />
+            <marker date="1526385917522" expanded="true" signature="2673:2856" ph="{...}" />
+            <marker date="1526385917522" expanded="true" signature="3253:3979" ph="{...}" />
+            <marker date="1526385917522" expanded="true" signature="3596:3906" ph="{...}" />
+            <marker date="1526385917522" expanded="true" signature="3676:3857" ph="{...}" />
+            <marker date="1526385917522" expanded="true" signature="4116:4652" ph="{...}" />
+            <marker date="1526385917522" expanded="true" signature="5716:6680" ph="{...}" />
+            <marker date="1526385917522" expanded="true" signature="5838:6532" ph="{...}" />
+            <marker date="1526385917522" expanded="true" signature="6066:6228" ph="{...}" />
+            <marker date="1526385917522" expanded="true" signature="6249:6474" ph="{...}" />
+            <marker date="1526385917522" expanded="true" signature="6743:6805" ph="{...}" />
+            <marker date="1526385917522" expanded="true" signature="6815:7011" ph="/* TODO imporove the performance of this method some day ... */" />
+            <marker date="1526385917522" expanded="true" signature="7082:7288" ph="{...}" />
+            <marker date="1526385917522" expanded="true" signature="7346:8644" ph="{...}" />
+            <marker date="1526385917522" expanded="true" signature="7657:8206" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

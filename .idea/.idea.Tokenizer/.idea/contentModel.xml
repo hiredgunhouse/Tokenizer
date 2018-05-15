@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\k403658\projects\Tokenizer" t="IncludeFlat">
+      <e p="_ReSharper.Caches\ReSharperHost12.Tokenizer.00" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Tokenizer" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Config.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Tokenizer.cs" t="Include" />
+        <e p="Tokenizer.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Tokenizer.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

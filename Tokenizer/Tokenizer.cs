@@ -30,6 +30,18 @@
             var tokenFile = _tokenFile;
             var outputFile = _outputFile;
 
+            if (!File.Exists(templateFile))
+            {
+                Console.WriteLine($"Error, could not find template file '{templateFile}', exiting...");
+                Environment.Exit(1);
+            }
+            
+            if (!File.Exists(tokenFile))
+            {
+                Console.WriteLine($"Error, could not find token file '{tokenFile}', exiting...");
+                Environment.Exit(1);
+            }
+
             // TODO
             // add -force option and checking for last change date to skip re-generation of files without need for it
 
@@ -50,14 +62,17 @@
             }
             */
 
-            Console.WriteLine("Checking for untemplated changes...");
-            var untemplatedChanges = CheckOutputFileForUntemplatedChanges(outputFile);
-            if (untemplatedChanges)
+            if (File.Exists(outputFile))
             {
-                Console.WriteLine("Trying to open diff...");
-                TryToOpenDiffFor(outputFile);
+                Console.WriteLine("Output file exists, checking for untemplated changes...");
+                var untemplatedChanges = CheckOutputFileForUntemplatedChanges(outputFile);
+                if (untemplatedChanges)
+                {
+                    Console.WriteLine("Trying to open diff...");
+                    TryToOpenDiffFor(outputFile);
 
-                return -1;
+                    return -1;
+                }
             }
 
             Console.WriteLine("Tokenizing template file '{0}' using tokens from '{1}'...", templateFile, tokenFile);
