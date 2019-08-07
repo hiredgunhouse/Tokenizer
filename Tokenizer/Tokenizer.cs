@@ -1,4 +1,6 @@
-﻿namespace Tokenizer
+﻿using Microsoft.XmlDiffPatch;
+
+namespace Tokenizer
 {
     using System;
     using System.Collections.Generic;
@@ -178,12 +180,18 @@
         // TODO imporove the performance of this method some day
         // cause this reads the whole file which is not the fastest solution
         // but at this point there's no use case for big files
+        /// <summary>
+        /// Method compars 2 xml files, using old xml diff implementation.
+        /// </summary>
+        /// <param name="firstFile">Last version file.</param>
+        /// <param name="secondFile">Generated file.</param>
+        /// <returns>True if files are identical, false otherwise.</returns>
         private bool CompareFiles(string firstFile, string secondFile)
         {
-            var content1 = File.ReadAllText(firstFile);
-            var content2 = File.ReadAllText(secondFile);
-
-            return content1.Equals(content2, StringComparison.Ordinal);
+            XmlDiff xmlDiff = new XmlDiff(XmlDiffOptions.IgnoreChildOrder
+                                          | XmlDiffOptions.IgnoreNamespaces
+                                          | XmlDiffOptions.IgnorePrefixes);
+            return xmlDiff.Compare(firstFile, secondFile, false);
         }
 
         private void TryToOpenDiffFor(string outputFile)
